@@ -1,0 +1,126 @@
+body {
+    background-color: deepskyblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background:linear-gradient(to right, #78a7ba 0%, #385D6C 50%, #78a7ba 99%);
+
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    color: white;
+    width:650px;
+    margin:30px auto;
+    background:linear-gradient(to right, darkblue 0%, skyblue 50%, deepskyblue 99%);
+    border-radius: 10px;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-header  {
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  text-align:center;
+  color:darkblue;
+  padding:20px 0;
+  border-bottom:1px solid #cccccc;
+}
+  
+  table {
+    width: 80%;
+    margin: 40px auto;
+    background-color: gray;
+  }
+  
+  table.list {
+    text-align: center;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid rgb(204, 200, 200);
+    text-align: left;
+    padding: 8px 15px;
+  }
+  
+  tr:nth-child(even),
+  table.list thread > tr {
+    background-color: whitesmoke;
+  }
+  
+  input[type="text"] {
+    width: 91%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: skyblue;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  button:hover {
+    background: deepskyblue;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: black;
+    color: white;
+    font-size: 1.2rem;
+    font-family: cursive;
+  }
+  
+  tbody {
+    font-family: cursive;
+  }
+  
+  .input-part {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+  }
+  
+  button {
+    background: deepskyblue;
+    color: white;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+  }
+  

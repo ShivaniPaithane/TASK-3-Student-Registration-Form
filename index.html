@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer> </script>
+    <title>Student Enrollment Form</title>
+</head>
+<body>
+    <h1>Student Enrollment Form</h1>
+    <div class="container center">
+      <hr>
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="playerName">Name</label>
+                            <input type="text" placeholder="Enter Name" name="playerName" id="playerName">
+                        </div>
+                        <div>
+                            <label for="address">Email</label>
+                            <input placeholder="Enter Email" type="text" name="address" id="address">
+                        </div>
+                        <div>
+                            <label for="SportName">Website</label>
+                            <input placeholder="Enter Website" type="text" name="SportName" id="SportName">
+                        </div>
+                        <div>
+                            <label for="age">Imagelink</label>
+                            <input placeholder="Enter Imagelink" type="text" name="age" id="age">
+                        </div>
+                        <div>
+                            <label for="gender">Gender</label>
+                            <br>
+                            <input type="radio" id="gender" name="gender" value="Male">
+                            <label for="html">Male</label><br>
+                            <input type="radio" id="gender" name="gender" value="Female">
+                            <label for="css">Female</label><br>
+                            
+                        </div>
+                        <div>
+                            <label for="mobile">Skills</label><br>
+                             <input type="checkbox" id="mobile" name="mobile" value="JAVA">
+                             <label for="mobile">JAVA</label><br>
+                             <input type="checkbox" id="mobile" name="mobile" value="HTML">
+                             <label for="mobile">HTML</label><br>
+                             <input type="checkbox" id="mobile" name="mobile" value="CSS">
+                             <label for="mobile">CSS</label><br>
+                             <input type="checkbox" id="mobile" name="mobile" value="JAVASCRIPT">
+                             <label for="mobile">JAVASCRIPT</label><br><br>
+                        </div>
+
+                        <div class="form-btns">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Clear">
+                        </div>
+                    </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Website</th>
+                                <th>Imagelink</th>
+                                <th>Gender</th>
+                                <th>Skills</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
